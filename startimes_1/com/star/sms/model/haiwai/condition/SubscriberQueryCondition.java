@@ -1,0 +1,147 @@
+
+package com.star.sms.model.haiwai.condition;
+
+import javax.xml.bind.JAXBElement;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElementRef;
+import javax.xml.bind.annotation.XmlType;
+
+
+/**
+ * <p>Java class for SubscriberQueryCondition complex type.
+ * 
+ * <p>The following schema fragment specifies the expected content contained within this class.
+ * 
+ * <pre>
+ * &lt;complexType name="SubscriberQueryCondition">
+ *   &lt;complexContent>
+ *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ *       &lt;sequence>
+ *         &lt;element name="payerID" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="payerPwd" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="smartCardCode" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *         &lt;element name="transactionNo" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
+ *       &lt;/sequence>
+ *     &lt;/restriction>
+ *   &lt;/complexContent>
+ * &lt;/complexType>
+ * </pre>
+ * 
+ * 
+ */
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "SubscriberQueryCondition", propOrder = {
+    "payerID",
+    "payerPwd",
+    "smartCardCode",
+    "transactionNo"
+})
+public class SubscriberQueryCondition {
+
+    @XmlElementRef(name = "payerID", namespace = "http://condition.haiwai.model.sms.star.com", type = JAXBElement.class, required = false)
+    protected JAXBElement<String> payerID;
+    @XmlElementRef(name = "payerPwd", namespace = "http://condition.haiwai.model.sms.star.com", type = JAXBElement.class, required = false)
+    protected JAXBElement<String> payerPwd;
+    @XmlElementRef(name = "smartCardCode", namespace = "http://condition.haiwai.model.sms.star.com", type = JAXBElement.class, required = false)
+    protected JAXBElement<String> smartCardCode;
+    @XmlElementRef(name = "transactionNo", namespace = "http://condition.haiwai.model.sms.star.com", type = JAXBElement.class, required = false)
+    protected JAXBElement<String> transactionNo;
+
+    /**
+     * Gets the value of the payerID property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link JAXBElement }{@code <}{@link String }{@code >}
+     *     
+     */
+    public JAXBElement<String> getPayerID() {
+        return payerID;
+    }
+
+    /**
+     * Sets the value of the payerID property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link JAXBElement }{@code <}{@link String }{@code >}
+     *     
+     */
+    public void setPayerID(JAXBElement<String> value) {
+        this.payerID = value;
+    }
+
+    /**
+     * Gets the value of the payerPwd property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link JAXBElement }{@code <}{@link String }{@code >}
+     *     
+     */
+    public JAXBElement<String> getPayerPwd() {
+        return payerPwd;
+    }
+
+    /**
+     * Sets the value of the payerPwd property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link JAXBElement }{@code <}{@link String }{@code >}
+     *     
+     */
+    public void setPayerPwd(JAXBElement<String> value) {
+        this.payerPwd = value;
+    }
+
+    /**
+     * Gets the value of the smartCardCode property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link JAXBElement }{@code <}{@link String }{@code >}
+     *     
+     */
+    public JAXBElement<String> getSmartCardCode() {
+        return smartCardCode;
+    }
+
+    /**
+     * Sets the value of the smartCardCode property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link JAXBElement }{@code <}{@link String }{@code >}
+     *     
+     */
+    public void setSmartCardCode(JAXBElement<String> value) {
+        this.smartCardCode = value;
+    }
+
+    /**
+     * Gets the value of the transactionNo property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link JAXBElement }{@code <}{@link String }{@code >}
+     *     
+     */
+    public JAXBElement<String> getTransactionNo() {
+        return transactionNo;
+    }
+
+    /**
+     * Sets the value of the transactionNo property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link JAXBElement }{@code <}{@link String }{@code >}
+     *     
+     */
+    public void setTransactionNo(JAXBElement<String> value) {
+        this.transactionNo = value;
+    }
+
+}

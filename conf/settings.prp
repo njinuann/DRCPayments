@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Bridge Properties</comment>
+<entry key="ChannelID">8</entry>
+<entry key="offlineCoreSchemaName">OFFLINE_SCHEMA</entry>
+<entry key="StartimesPayerPassword">506959831b129601d42a9de61fc523a7</entry>
+<entry key="BankName">finca</entry>
+<entry key="StartStartimes">Y</entry>
+<entry key="ShowFilePathStatus">N</entry>
+<entry key="ReconServer">197.231.253.66</entry>
+<entry key="Password">033912012111052595506001</entry>
+<entry key="offlineAdapterIP">10.64.38.37</entry>
+<entry key="Server">10.64.1.172</entry>
+<entry key="TaxValidationFg">N</entry>
+<entry key="offlineAdapterPort">6002</entry>
+<entry key="ValueScheme">VCa6WzJ906mdkImHs9f05mFGQYMyMV/x</entry>
+<entry key="SERVICE_OFFLINE">Y</entry>
+<entry key="BankToken">NhaEI83CVvYsuR/Rx1PCGg==</entry>
+<entry key="JdbcDriverName">oracle.jdbc.driver.OracleDriver</entry>
+<entry key="CMSchemaName">CHANNELMANAGER</entry>
+<entry key="STTFtpUser">ftp03</entry>
+<entry key="ApplyChargeTV">N</entry>
+<entry key="AllowedProductCodes">100,101,102,103,104,105,106,107,108,109,110</entry>
+<entry key="ApplyChargeFee">Y</entry>
+<entry key="FilePath">INPUT</entry>
+<entry key="ReconFilePath">Recon</entry>
+<entry key="CMSchemaJdbcUrl">jdbc:oracle:thin:@//10.64.38.8:1521/FNCRDCPDB</entry>
+<entry key="ReconUploadTime">1620</entry>
+<entry key="offlineCMSchemaName">CHANNELMANAGER</entry>
+<entry key="Port">7000</entry>
+<entry key="MaxProcessorPoolSize">100</entry>
+<entry key="offlineCMSchemaJdbcUrl">jdbc:oracle:thin:@//10.64.1.41:1521/FNCRDCEOMP</entry>
+<entry key="ChannelCode">POS</entry>
+<entry key="EtaxUrl">http://172.16.1.249:8080/erecettescpi/resources/generic</entry>
+<entry key="EnableDebug">Y</entry>
+<entry key="DisplayLines">750</entry>
+<entry key="CMSchemaPassword">k6MjR8pvTyRrwjLHPRk5FA==</entry>
+<entry key="XapiUser">biKsgfG84Onp9zM0zF2huA==</entry>
+<entry key="offlineCMSchemaPassword">k6MjR8pvTyRrwjLHPRk5FA==</entry>
+<entry key="DisplayConsole">Y</entry>
+<entry key="ApplyChargeTAX">Y</entry>
+<entry key="EtaxHostName">10.64.38.37</entry>
+<entry key="STTFtpPass">111811811450350</entry>
+<entry key="TaxChargeUSD">715</entry>
+<entry key="TaxChargeCDF">714</entry>
+<entry key="CoreSchemaName">banking</entry>
+<entry key="TVChargeCDF">717</entry>
+<entry key="SchChargeCDF">713</entry>
+<entry key="XapiPassword">ACdFgyoXow8uEp5NQ6xqXQ==</entry>
+<entry key="CoreWsdlURL">http://10.64.38.21:7003/supernovaws/</entry>
+<entry key="StartimesPayerId">419302@CD.D</entry>
+<entry key="SchChargeUSD">712</entry>
+</properties>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Properties</comment>
+<entry key="FilePath">INPUT</entry>
+<entry key="ReconServer">197.231.253.66</entry>
+<entry key="ReconUploadTime">1620</entry>
+<entry key="STTFtpPass">111811811450350</entry>
+<entry key="EtaxHostName">10.64.1.207</entry>
+<entry key="EtaxUrl">http://172.16.1.249:8080/erecettescpi/resources/generic</entry>
+<entry key="Port">7000</entry>
+<entry key="Server">10.64.1.172</entry>
+<entry key="Password">033912012111052595506001</entry>
+<entry key="StartStartimes">Y</entry>
+<entry key="BankName">finca</entry>
+<entry key="User">Alex</entry>
+<entry key="ServiceName">staging</entry>
+<entry key="BankToken">NhaEI83CVvYsuR/Rx1PCGg==</entry>
+<entry key="STTFtpUser">ftp03</entry>
+<entry key="ReconFilePath">/Recon</entry>
+</properties>
